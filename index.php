@@ -16,9 +16,9 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				
-				<li><a href="http://localhost/SIPEG/profil.php">Profil</a></li>
+				<li><a href="#">Profil</a></li>
 				
-				<li><a href="http://localhost/SIPEG/admin/login.php">Login</a>
+				<li><a href="#">Login</a>
 				
 				</li>
 			</ul>
@@ -39,7 +39,7 @@
 </div>
 <div class="footer">
 <div class="logo">
-	<h1>Copyright©2014.ilmi_ifa.com </h1>
+	<h1>CopyrightÂ©2014.ilmi_ilhafa.com </h1>
 </div>
 </div>
 </body>
