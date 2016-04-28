@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title> SISTEM INFORMASI KEPEGAWAIAN </title>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="https://github.com/ilmiilhafa/ILMIYATUS-SHALIHAH_JWP/blob/master/style.css"/>
 	</head>
 	<body>
 		<div class="header">		
