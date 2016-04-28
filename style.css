@@ -1,7 +1,7 @@
 /*css*/
 /*selector*/
 body{
-background: url(images/k.jpg);
+background: url(https://github.com/ilmiilhafa/ILMIYATUS-SHALIHAH_JWP/blob/master/k.jpg);
 }
 .header{
 	background: #009900;
@@ -20,7 +20,7 @@ background: url(images/k.jpg);
 	text-align:center;	
 }
 .gambar{
-	background: url(logo.jpg);
+	background: url(https://github.com/ilmiilhafa/ILMIYATUS-SHALIHAH_JWP/blob/master/logo.jpg);
 	height:250px;
 	width:800px;
 	background-repeat:no-repeat;
