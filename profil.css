@@ -1,0 +1,168 @@
+/*css*/
+/*selector*/
+body{
+background: url(images/k.jpg);
+}
+.header{
+	background: #009900;
+	margin-top:10px;		/*jarak dalam*/
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:1%;
+	height:100px;
+	color:white;
+	width:800px;
+	border-radius: 20px 20px 0px 0px;	/*untuk melengkungkan sisi pada kotak border; kiri atas, kanan atas, kanan bawah, kiri bawah*/
+	border: 1px solid #CCC;	/*untuk memberi kotak*/
+	border-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}
+.gambar{
+	background: url(logo.jpg);
+	height:250px;
+	width:800px;
+	background-repeat:no-repeat;
+	background-position:relative;
+	padding-bottom:1%;
+	
+}
+.header .gambar h1{
+	text-align:right;
+	padding-left:5%;
+}
+
+
+.menu{
+	width:800px;
+	position:center;
+	padding-left:1%;
+	padding-right:1%;
+	height:33px;
+	background-color:silver;
+	margin:auto;	
+}
+.menu ul{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.menu li{
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu li a:hover, .menu li a:link{
+	float:left;
+	padding:8px 12px;
+	color:white;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:bold;
+}
+.menu li a, .menu li a:link{
+	float:left;
+	padding:8px 12px;
+	color:#009900;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:bold;
+}
+
+
+.menu li li a, .menu li li a:link, .menu li li a:visited{   /*untuk bagian list pilihan ke bawah*/
+	font-size:80%;
+	background-color:grey;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	width:150px;
+	padding: 0px 10px;
+	line-height:30px;
+	
+}
+
+.menu li li a:hover, .menu li li a:active {  /*background untuk pilihan pada saat terkena kursor*/
+	background-color:white;
+	color: black;
+}
+
+.menu li ul{		/*pilihan ke bawah*/
+	z-index:9999;
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:50px;
+	margin-top:32px;
+	border:1px solid ##F0512D;
+}
+
+.menu li:hover ul, .menu li li:hover ul, .menu li li li:hover ul, .menu li.sfhover ul, .menu li li.sfhover ul, .menu li li li.sfhover ul{
+	left:auto
+}
+
+.menu li:hover, .menu li.sfhover{
+	position:static
+}
+
+
+
+
+.konten{
+background: white;
+	width:800px;
+	height:1500px;
+	border: 1px solid #CCC;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1%;
+	color:black;
+}
+
+
+
+
+#sidebar{
+background: #006600;
+margin-top:0px;
+height: 1500px;
+float: right;
+width: 800px;
+margin: 0px auto;
+text-align:center;
+}
+#sidebar h1{
+text-align:center;
+padding-top:0;
+color: aqua;
+}
+#sidebar p{
+text-align:justify;
+padding-top:0;
+color: white;
+}
+
+.footer{
+	padding:1%;
+	background: #009900;
+	position:center;
+	width:800px;
+	border: 1px solid #CCC;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+
+.footer .logo h1{
+    text-align:center;
+	padding-top:2%;
+	padding-right:7%;
+    color: white;
+    font-size: 14px;
+}
+
